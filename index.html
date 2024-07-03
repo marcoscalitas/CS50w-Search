@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/utilities.css">
+    <link rel="icon" href="https://www.google.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <nav class="c-menu">
+                <ul class="c-menu__list d-flex jutify-content-end">
+                    <li class="c-menu__item">
+                        <a href="Image.html" class="c-menu__link">Image</a>
+                    </li>
+                    <li class="c-menu__item">
+                        <a href="advanced.html" class="c-menu__link">Advanced Search</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="row">
+                <div class="search-center d-flex flex-direction-column jutify-content-center align-item-center">
+                    <!-- Image -->
+                    <div class="image">
+                        <img src="assets/img/google-logo.png" alt="Google Logo" class="image__item">
+                    </div>
+                    <!-- search form -->
+                    <form action="https://www.google.com/search" method="GET"
+                        class="form d-flex flex-direction-column align-item-center">
+                        <div class="form__group">
+                            <input type="text" name="q" class="form__input form__input--primary">
+                            <span class="form__search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        </div>
+                        <div class="form__group form__group--gap d-flex align-item-center">
+                            <input type="submit" value="Google Search" class="form__btn form__btn--primary">
+                            <input type="submit" name="btnI" value="I'm Feeling Lucky"
+                                class="form__btn form__btn--primary">
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+</body>
+
+</html>

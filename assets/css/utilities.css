@@ -1,0 +1,24 @@
+/* Flex Layout */
+.d-flex {
+    display: flex;
+}
+
+.jutify-content-center {
+    justify-content: center;
+}
+
+.jutify-content-between {
+    justify-content: space-between;
+}
+
+.jutify-content-end {
+    justify-content: flex-end;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}

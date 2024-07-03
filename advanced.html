@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/utilities.css">
+    <link rel="icon" href="https://www.google.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar navbar--padding d-flex jutify-content-between align-item-center">
+            <!-- Image -->
+            <a href="index.html" class="image image--navbar">
+                <img src="assets/img/google-logo.png" alt="Google Logo" class="image__item">
+            </a>
+            <nav class="c-menu">
+                <ul class="c-menu__list d-flex jutify-content-end">
+                    <li class="c-menu__item">
+                        <a href="index.html" class="c-menu__link">Go back to Google Search</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container container--relative">
+            <!-- search form -->
+            <div class="row">
+                <h1 class="title">Advanced Search</h1>
+            </div>
+            <div class="line"></div>
+            <section class="row">
+                <form action="https://www.google.com/search" method="GET"
+                    class="form form--advanced d-flex flex-direction-column">
+                    <div class="form__header d-flex align-item-center">
+                        <span class="form__title">Find pages with...</span>
+                        <div class="form__input form__input--secundary form__input--secundary-no-border-shadow"></div>
+                        <span class="form__subtitle">To do this in the search box.</span>
+                    </div>
+                    <div class="form__body d-flex flex-direction-column">
+                        <div class="form__group d-flex align-item-center">
+                            <label class="form__label">All these words:</label>
+                            <input type="text" name="as_q" class="form__input form__input--secundary">
+                            <span class="form__clarification">
+                                Type the important words: <span class="form__monospace">tri-colour rat terrier</span>
+                            </span>
+                        </div>
+                        <div class="form__group d-flex align-item-center">
+                            <label class="form__label">this exact word or phrase:</label>
+                            <input type="text" name="as_epq" class="form__input form__input--secundary">
+                            <span class="form__clarification">
+                                Put exact words in quotes: <span class="form__monospace">"rat terrier"</span>
+                            </span>
+                        </div>
+                        <div class="form__group d-flex align-item-center">
+                            <label class="form__label">any of these words:</label>
+                            <input type="text" name="as_oq" class="form__input form__input--secundary">
+                            <span class="form__clarification">
+                                Type OR between all the words you want:
+                                <span class="form__monospace">miniature ORstandard</span>
+                            </span>
+                        </div>
+                        <div class="form__group d-flex align-item-center">
+                            <label class="form__label">none of these words:</label>
+                            <input type="text" name="as_eq" class="form__input form__input--secundary">
+                            <span class="form__clarification">
+                                Put a minus sign just before words that you don't want:
+                                <span class="form__monospace">-rodent, -"Jack Russell"</span>
+                            </span>
+                        </div>
+                        <div class="form__group form__group--btn d-flex align-item-center">
+                            <label class="form__label"></label>
+                            <input type="submit" value="Advanced Search" name="btnK"
+                                class="form__btn form__btn--secundary form__btn--flex-end">
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+</body>
+
+</html>
