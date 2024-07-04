@@ -61,7 +61,7 @@
     color: #d93025;
     font-size: 20px;
     font-weight: normal;
-    margin: 0px 25px 0 25px;
+    margin: 15px 25px 25px;
 }
 
 .line {
@@ -108,7 +108,7 @@
 }
 
 .form {
-    padding: 25px;
+    padding: 45px 25px;
     background-color: var(--white);
     gap: 28px;
 }
@@ -284,15 +284,16 @@
 @media (max-width: 576px) {
 
     .form--advanced {
-        padding: 0;
+        padding: var(--mobile-padding) 0;
     }
 
     .title {
-        margin: 0;
+        margin: 15px 0 25px;
     }
 
     .form__group {
         flex-direction: column;
+        gap: 5px;
     }
 
     .form__label {
