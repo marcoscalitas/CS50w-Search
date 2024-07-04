@@ -57,6 +57,15 @@
     padding: 0 var(--mobile-padding);
 }
 
+.row--center {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-80%);
+    gap: 25px;
+}
+
 .title {
     color: #d93025;
     font-size: 20px;
@@ -75,10 +84,6 @@
     width: 310px;
 }
 
-.image--padding {
-    padding: 0 var(--mobile-padding);
-}
-
 .image--navbar {
     width: 74px;
 }
@@ -94,18 +99,9 @@
     position: absolute;
     color: var(--blue);
     top: 78%;
-    right: 23px;
+    right: 12px;
     font-size: 16px;
     line-height: 16px;
-}
-
-.search-center {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    transform: translateY(-80%);
-    gap: 25px;
 }
 
 .form {
