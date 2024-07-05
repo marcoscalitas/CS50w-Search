@@ -20,11 +20,15 @@
     padding: 6px;
 }
 
-.c-menu {
+.c-navbar--padding {
+    padding: 8px;
+}
+
+.c-navbar__wrapper {
     padding: 12px;
 }
 
-.c-menu__list {
+.c-menu {
     gap: 15px;
 }
 
@@ -65,7 +69,7 @@
     color: #d93025;
     font-size: 20px;
     font-weight: normal;
-    margin: 15px 25px 25px;
+    margin: 22px 25px 25px;
 }
 
 .line {
@@ -80,8 +84,7 @@
 }
 
 .image--navbar {
-    width: 98px;
-    padding: 12px;
+    width: 72px;
 }
 
 .image__item {
