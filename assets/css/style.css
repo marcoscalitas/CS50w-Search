@@ -15,16 +15,15 @@
     --mobile-padding: 20px
 }
 
-/* Header content */
-.navbar {
+/* Header content / C or Components */
+.c-navbar {
     padding: 6px;
 }
 
-.navbar--padding {
+.c-navbar--padding {
     padding: 12px 20px;
 }
 
-/* C or Components */
 .c-menu {
     padding: 12px;
 }
