@@ -20,10 +20,6 @@
     padding: 6px;
 }
 
-.c-navbar--padding {
-    padding: 12px 20px;
-}
-
 .c-menu {
     padding: 12px;
 }
@@ -84,7 +80,8 @@
 }
 
 .image--navbar {
-    width: 74px;
+    width: 98px;
+    padding: 12px;
 }
 
 .image__item {
