@@ -29,8 +29,6 @@ This is the **"Search"** project, developed as part of the CS50's Web Programmin
     - “This exact word or phrase:”
     - “Any of these words:”
     - “None of these words:”
-  - Each field is vertically stacked and left-aligned.
-  - Features a blue "Advanced Search" button with white text.
   ![Google Advanced Search](./assets/img/advanced.png)
 
 ## Technologies
@@ -47,7 +45,10 @@ This is the **"Search"** project, developed as part of the CS50's Web Programmin
 - Web Browser
 
 ## Installation
-1. Download the distribution code from [here](https://cdn.cs50.net/web/2020/spring/projects/0/search.zip) and unzip it. Alternatively, manually create the HTML files following the specifications.
+1. Download the distribution code and unzip it, or alternatively, clone the repository using the following command:
+
+   ```bash
+   git clone https://github.com/marcoscalitas/CS50w-Search.git
 
 2. Open the `index.html` file in a web browser:
    ```bash
