@@ -9,7 +9,7 @@
   - [Project Structure](#project-structure)
 
 ## Overview
-This is the **"Search"** project, developed as part of the CS50's Web Programming with Python and JavaScript course. This project involves designing a front-end interface for Google Search, Google Image Search, and Google Advanced Search. The application sends data to Google's servers using GET parameters and replicates Google's search functionality. Run project: https://cs50w-search.vercel.app/
+This is the **"Search"** project, developed as part of the CS50's Web Programming with Python and JavaScript course. This project involves designing a front-end interface for Google Search, Google Image Search, and Google Advanced Search. The application sends data to Google's servers using GET parameters and replicates Google's search functionality. <a href="https://cs50w-search.vercel.app/" target="_blank">Click here to run project</a>
 
 ## Features
 - **Google Search Page:** 
@@ -38,8 +38,10 @@ This is the **"Search"** project, developed as part of the CS50's Web Programmin
   - HTML
   - CSS
 
-<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" align="center">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" align="center">
+<div style="display:flex; align-item:center; gap:10px;">
+    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
+</div>
 
 ## Requirements
 - Web Browser
