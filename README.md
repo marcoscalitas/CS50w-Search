@@ -9,7 +9,10 @@
   - [Project Structure](#project-structure)
 
 ## Overview
-This is the **"Search"** project, developed as part of the CS50's Web Programming with Python and JavaScript course. This project involves designing a front-end interface for Google Search, Google Image Search, and Google Advanced Search. The application sends data to Google's servers using GET parameters and replicates Google's search functionality. <a href="https://cs50w-search.vercel.app/" target="_blank">Click here to run project</a>
+This is the **"Search"** project, developed as part of the CS50's Web Programming with Python and JavaScript course. This project involves designing a front-end interface for Google Search, Google Image Search, and Google Advanced Search. The application sends data to Google's servers using GET parameters and replicates Google's search functionality.
+
+<a href="https://cs50w-search.vercel.app" target="_blank">Click here to run project</a>
+[Click here to run project](https://cs50w-search.vercel.app){:target="_blank"}
 
 ## Features
 - **Google Search Page:** 
