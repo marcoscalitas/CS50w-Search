@@ -38,7 +38,7 @@ This is the **"Search"** project, developed as part of the CS50's Web Programmin
   - HTML
   - CSS
 
-<div style="display:flex; align-item:center; gap:10px;">
+<div style="display:flex; align-item:center; gap:12px;">
     <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
 </div>
