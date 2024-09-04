@@ -50,10 +50,9 @@ This is the **"Search"** project, developed as part of the CS50's Web Programmin
 - Web Browser
 
 ## Installation
-1. Download the distribution code and unzip it, or alternatively, clone the repository using the following command:
-
+1. Clone the repository to your local environment:
    ```bash
-   git clone https://github.com/marcoscalitas/CS50w-Search.git
+   git clone <repository-URL>
 
 2. Open the `index.html` file in a web browser:
    ```bash
