@@ -2,6 +2,7 @@
 
 - [CS50's Web Project 0 - **Search**](#cs50s-web-project-0---search)
   - [Overview](#overview)
+  - [Demo](#demo)
   - [Features](#features)
   - [Technologies](#technologies)
   - [Requirements](#requirements)
@@ -9,7 +10,11 @@
   - [Project Structure](#project-structure)
 
 ## Overview
-This is the **"Search"** project, developed as part of the CS50's Web Programming with Python and JavaScript course. This project involves designing a front-end interface for Google Search, Google Image Search, and Google Advanced Search. The application sends data to Google's servers using GET parameters and replicates Google's search functionality. <a href="https://cs50w-search.vercel.app" target="_blank">Click here to run project</a>
+This is the **"Search"** project, developed as part of the CS50's Web Programming with Python and JavaScript course. This project involves designing a front-end interface for Google Search, Google Image Search, and Google Advanced Search. The application sends data to Google's servers using GET parameters and replicates Google's search functionality. 
+
+## Demo
+<a href="https://cs50w-search.vercel.app" target="_blank">https://cs50w-search.vercel.ap</a>
+
 
 ## Features
 - **Google Search Page:** 
